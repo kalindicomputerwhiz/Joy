@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <link rel="stylesheet" href="styles.css">
+
+</head>
+ <body>
+ <nav class="navbar">
+ <!-- LOGO -->
+ <div class="logo"><img src = "https://codehs.com/uploads/f9c01a1209a603f432e6f7671602e6da" width= "90px" height= "90px"></div>
+ <!-- NAVIGATION MENU -->
+ <ul class="nav-links">
+ <!-- USING CHECKBOX HACK -->
+
+ 
+ <!-- NAVIGATION MENUS -->
+ <div class="menu">
+ <li><a href="https://www.google.com/?safe=active&ssui=on">School Life</a></li>
+ <li><a href="Academics page.html">Academics</a></li>
+ <li><a href="aboutme.html">About</a></li>
+ 
+ 
+ <li><a href="/">Contact</a></li>
+ </div>
+ </ul>
+ </nav>
+</body>
+</html>
+
+<style>
+  .navbar {
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ padding: 20px;
+ background-color: #FF69B4;
+ color:pink;
+}
+.nav-links a {
+ color: #CC47A3;
+}
+/* LOGO */
+.logo {
+ font-size: 32px;
+}
+/* NAVBAR MENU */
+.menu {
+ display: flex;
+ gap: 1em;
+ font-size: 18px;
+}
+.menu li:hover {
+ background-color: #AA36A3;
+ border-radius: 5px;
+ transition: 0.3s ease;
+}
+.menu li {
+ padding: 5px 14px;
+}
+/* DROPDOWN MENU */
+.services {
+ position: relative; 
+}
+.dropdown {
+ background-color: rgb(1, 100, 200);
+ padding: 1em 0;
+ position: absolute; /*WITH RESPECT TO PARENT*/
+ display: none;
+ border-radius: 8px;
+ top: 35px;
+}
+.dropdown li + li {
+ margin-top: 10px;
+}
+.dropdown li {
+ padding: 0.5em 1em;
+ width: 8em;
+ text-align: center;
+}
+.dropdown li:hover {
+ background-color: #4c9e9e;
+}
+.services:hover .dropdown {
+ display: block;
+}
+</style>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  /* The image used */          
+  background-image: url("https://images.immediate.co.uk/production/volatile/sites/10/2020/01/2048x1365-Carols-pick-of-best-plants-for-colourful-containers-GettyImages-1185235271-0ee53ef.jpg?quality=90&resize=960%2C640");
+  
+  /* Add the blur effect */
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  
+  /* Full height */
+  height: 100%; 
+  
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Position text in the middle of the page/image */
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: purple; /* Black w/opacity/see-through */
+  color: pink;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+<div class="bg-image"></div>
+
+<div class="bg-text">
+  <h2></h2>
+  <h1 style="font-size:50px">Kalindi </h1>
+  <p></p>
+</div>
+
+</body>
+</html>
